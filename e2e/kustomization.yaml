@@ -9,5 +9,6 @@ images:
   - name: shivaprasadreddy1/argocd-demo
     newTag: 12345dummy
 
+
 resources:
 - ../base

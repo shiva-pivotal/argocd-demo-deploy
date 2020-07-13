@@ -1,11 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
+bases:
+- ../base
+
 patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
 - name: shivaprasadreddy1/argocd-demo
   newTag: 336cba1ad8a38877dd1d442a6982b3bda324dbba
-resources:
-- ../base

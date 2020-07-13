@@ -7,7 +7,7 @@ patchesStrategicMerge:
 
 images:
   - name: shivaprasadreddy1/argocd-demo
-    newTag: 819e9cd72d6bae13fb12caa62695d2a66c148ca4
+    newTag: 12345dummy
 
 resources:
 - ../base

@@ -15,7 +15,7 @@ spec:
         app: demo
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
+      - image: shivaprasadreddy1/argocd-demo:336cba1ad8a38877dd1d442a6982b3bda324dbba
         name: demo
         ports:
         - containerPort: 8080

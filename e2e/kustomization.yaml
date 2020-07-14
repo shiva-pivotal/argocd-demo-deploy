@@ -6,8 +6,8 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
-  - name: shivaprasadreddy1/loan-price-demo-app
-    newTag: 819e9cd72d6bae13fb12caa62695d2a66c148ca4
+- name: shivaprasadreddy1/loan-price-demo-app
+  newTag: 1407238c6314857ab64330a8b192b6e5c0b67565
 
 resources:
 - ../base

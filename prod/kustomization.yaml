@@ -8,6 +8,8 @@ patchesStrategicMerge:
 images:
 - name: shivaprasadreddy1/argocd-demo
   newTag: 4acabb6077e9db3d5c36c8b1c194355e3178e8b7
+- name: shivaprasadreddy1/loan-price-demo-app
+  newTag: 1407238c6314857ab64330a8b192b6e5c0b67565
 
 resources:
 - ../base

@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo
+  name: loan-price-demo-app
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   progressDeadlineSeconds: 30
   selector:
     matchLabels:
-      app: demo
+      app: loan-price-demo-app
   template:
     metadata:
       labels:
-        app: demo
+        app: loan-price-demo-app
     spec:
       containers:
-      - image: shivaprasadreddy1/argocd-demo:336cba1ad8a38877dd1d442a6982b3bda324dbba
-        name: demo
+      - image: shivaprasadreddy1/loan-price-demo-app:336cba1ad8a38877dd1d442a6982b3bda324dbba
+        name: loan-price-demo-app
         ports:
         - containerPort: 8080

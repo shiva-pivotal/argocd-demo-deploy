@@ -6,7 +6,7 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
-- name: shivaprasadreddy1/argocd-demo
+- name: shivaprasadreddy1/loan-price-demo-app
   newTag: 4acabb6077e9db3d5c36c8b1c194355e3178e8b7
 
 resources:

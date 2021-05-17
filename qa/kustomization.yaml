@@ -7,7 +7,7 @@ patchesStrategicMerge:
 
 images:
 - name: shivaprasadreddy1/loan-price-demo-app
-  newTag: f30ae50f7df662ff3af7ea49a6895544cf98e5cf
+  newTag: 877d54660243cdf24b04dd38c0b85a090e620594
 
 resources:
 - ../base
